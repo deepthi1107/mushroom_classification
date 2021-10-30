@@ -2,44 +2,36 @@
 - Classification of mushroom whether it is edible or poison.
 - Data set downloaded from Kaggle.
 
-## Multilayer Perceptron:
-## [Click here to see the video](https://drive.google.com/file/d/1uBnmNTgW1yLnUyTgX30vcwwpNGjdcxYY/view?usp=sharing)
+## Support Vector Machine(SVM)
+## [Click here to see the video](https://drive.google.com/file/d/1TCTAAVl_aWhbIo1kLf4rhecix7wCMDwm/view?usp=sharing)
+- Support Vector Machine is a Supervised Machine Learning model which is used for both classification and regression 
+Problems.
+- The goal of SVM is to create a best line that can segregate the n dimensional space into classes, so that when new data 
+is put in space, it can identify the correct class.
+- The best line is known as hyperplane.
+- When the data is linear, hyperplane is known as straight line and when data is non linear hyperplane is a plane.
+- SVM chooses vectors that help in creating the hyperplane and these vectors are known as support vectors
 
-- It is one of the Deep learning models.
-- It is a black box technique as it is a automatic feature extraction.
-- It learns at each layer.
-- At first layer it learns low level information, at hidden layer it learns mid level and high level information.
-- At each layer it tries to learn and those are known as representatives.
-- It is made up of cells/perceptron.
-- It is a fully connected to each perceptron, hence known as dense/fully connected network.
-- It is known as multilayered as it has hidden layers which make it different from perceptron algorithm.
-- Every cell other than the input cell, has two components:
-     
-     activation component and integration component.
+![image](https://user-images.githubusercontent.com/79050917/139553664-55408f1a-5243-4eb0-9dbc-7456d6fbaec3.png)
 
-![image](https://user-images.githubusercontent.com/79050917/139528478-4c9678ce-a6d3-4257-b936-faae526719a4.png)
+According to the SVM algorithm, they find the points closest to the line from both the classes. These points are called support vectors. Now, we compute the distance between the line and the support vectors. This distance is called the margin. Our goal is to maximize the margin. The hyperplane for which the margin is maximum is the optimal hyperplane.
+Hence, when new data point is introduced the data which is near to which category get assigned.
 
-**When it used?**
-- It is used when the output is numeric.
-- When the inputs are linear or non-linear.
+![image](https://user-images.githubusercontent.com/79050917/139553684-d7506b8e-b6a7-48eb-8b5e-8f142d69b810.png)
 
-**What are the other names of multilayer perceptron?**
-- Fully connected network.
-- Dense network.
-- Artificial neural network(ANN)
+**Advantages:**
+- It  works well when there is a clear margin of separation between classes.
+- It  is more effective in high dimensional spaces.
+- It  is effective in cases where the number of dimensions is greater than the number of samples.
+- It  is relatively memory efficient.
 
-**How does this work?**
-- Inputs are passed and then weights are assigned randomly, weights which results in less errors are chosen and then output is given.
+**Disadvantages:**
+- It is not suitable for large data sets.
+- It does not perform very well when the data set has more noise.
+- In cases where the number of features for each data point exceeds the number of training data samples, the SVM will underperform.
 
-**Formula for assignment of weights:**
-weight = weight + learning rate * (expected - predicted) * x
 
-x= input
 
-![image](https://user-images.githubusercontent.com/79050917/139528544-cac7b5a5-fc88-4c6d-8e42-8c06cde313b5.png)
 
-- When output is continuous, then output will have a single cell.
-- When output is discrete and have binary data, then output have a single or binary cells.
-- When output is discrete and have multiple data, then output have the cells on number of inputs passed.
 
-![image](https://user-images.githubusercontent.com/79050917/139528560-04b5f585-292c-4190-a558-56cfdd6265eb.png)
+
