@@ -39,7 +39,7 @@ Now, lets understand elbow-curve:
 
 **K-Means Advantages :**
 1) If variables are huge, then  K-Means most of the times computationally faster than hierarchical clustering.
-2) 2) K-Means produce tighter clusters than hierarchical clustering.
+2) K-Means produce tighter clusters than hierarchical clustering.
 
 **K-Means Disadvantages :**
 1) Difficult to predict K-Value.
