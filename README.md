@@ -88,6 +88,15 @@
 - It very important to store the output after building the model for thre test data.
 - df.to_csv(): is widely used to export the dataset.
 
+## Advantages:
+- Reduces time
+- Better Decision making
+- Increases the model performance.
+- Reduces the complexity.
+
+## Diadvantage:
+- Original data is lost.
+
 ## Conclusion:
 - Data Wrangling is the process of gathering, collecting, and transforming Raw data into another format for better understanding, decision-making, accessing, and analysis in less time.
 
