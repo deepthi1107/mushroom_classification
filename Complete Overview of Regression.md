@@ -38,6 +38,8 @@ polynomial.
 - Easy to interpret the output coefficient.
 - Model accuracy increases.
 - For non-linear data points we can draw the best fit line.
+
+
 **Disadvantages:**
 - Outliers have a huge effect on the model performance.
 - It does not give a complete description of relationship between variables.
