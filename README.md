@@ -8,7 +8,7 @@
 ----------------------------------------------------------------------------------
 
 ## Cat and Dog Image Classification
-## [Click here to listen the video]()
+## [Click here to listen the video](https://drive.google.com/file/d/18E6IjuB9wUpckiCrnsfK_YnAtjyJB62I/view?usp=sharing)
 # Introduction:
 The Asirra data set
 - Web services are often protected with a challenge that's supposed to be easy for people to solve, but difficult for computers. Such a challenge is often called a CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) or HIP (Human Interactive Proof). HIPs are used for many purposes, such as to reduce email and blog spam and prevent brute-force attacks on web site passwords.
@@ -23,6 +23,10 @@ Here is the link of the dataset : https://www.kaggle.com/c/dogs-vs-cats/data
 
 ## Goal:
 CLassification of dog and cat
+
+# Work Flow:
+Loading the dataset -> EDA -> Building the model -> Evaluation -> Deployment
+
 
 ## Libraries used :
 The required libraries for this project work
