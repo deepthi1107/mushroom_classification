@@ -8,6 +8,19 @@
                 - SciPy
                 - Matplotlib
 
+![image](https://user-images.githubusercontent.com/79050917/143678891-fc453c7f-be6f-40f0-a659-865f313f5eeb.png)
+
+- Scikit-learn can only be useful to you when you know the basics of what to use it for. 
+- A tabular dataset is what essentially is used for the data representation in this package. I
+- f you’re trying to design a supervised learning problem then this tabular dataset will have to contain both the x and y variables. 
+- However, if you’re trying to design an unsupervised learning problem then you need to provide only the x variables within the tabular dataset. 
+- The reason for this is that x variables are considered to be independent variables at a higher level. 
+- Meanwhile, the y variable is considered to be the dependent variable. 
+- Both x and y variables can be either qualitative or quantitative descriptions of samples of interest. 
+- Y variables are generally the target that predictive models are built to create
+
+![image](https://user-images.githubusercontent.com/79050917/143678909-4ff4cd05-9206-479f-8545-e950b5beea1e.png)
+
 **The main ways the Scikit-learn library is used:**
 - Classification
 - Regression
@@ -15,6 +28,8 @@
 - Dimensionality reduction
 - Model selection
 - Preprocessing
+
+![image](https://user-images.githubusercontent.com/79050917/143678924-9b667ce1-acf7-4df5-b1fb-d1cb69b45c97.png)
 
 **Conclusion:**
 - Scikit-learn is a versatile Python library you can use to efficiently complete data science projects.
