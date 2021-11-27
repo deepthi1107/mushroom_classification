@@ -1,5 +1,5 @@
 ## Elastic Net Regression
-## [Click here to listen the audio]()
+## [Click here to listen the audio](https://drive.google.com/file/d/1WR0s_oO2C2rIvGxgWpQzpSse0k_mlZ2V/view?usp=sharing)
 - It is a supervised machine learning model
 - It is used when the output is numeric in nature
 - It uses the penalties from both lasso and ridge regressions to regularize the models.
